@@ -84,64 +84,11 @@ Our feature importance analysis demonstrates fundamental hydrological principles
 
 ---
 
-## 🚀 Quickstart Guide
 
-### Prerequisites
-- Python 3.10 or higher
-- Git
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/<YOUR_USERNAME>/hydrowatch-flood-prediction.git
-cd hydrowatch-flood-prediction
-```
 
-### 2. Set Up Virtual Environment & Dependencies
-**On Windows (PowerShell):**
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-```
 
-**On macOS / Linux:**
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
 
-### 3. Launch the Interactive Dashboard
-```bash
-streamlit run app.py
-```
-*(On Windows, you can also double-click `run_app.bat` to launch automatically!)*
 
----
 
-## 📂 Project Directory Structure
 
-```
-├── .gitignore                   # Ignores .venv, cache, and OS files
-├── README.md                    # Project documentation & presentation guide
-├── requirements.txt             # Python dependencies
-├── run_app.bat                  # One-click Windows launch script
-├── app.py                       # Streamlit web application & Leaflet UI
-├── model_engine.py              # ML simulation engine & XAI logic
-└── data/
-    └── delhi_flood_zones.csv    # 40 monitoring zones with GIS & weather features
-```
-
----
-
-## 🏆 Hackathon Presentation Tips (3-Minute Pitch)
-
-- **The Hook (30s)**: Cite the 2023 Delhi Yamuna flood ($208.66\text{ m}$ breach, ₹1,000+ Cr damage).
-- **The Tech (30s)**: Explain the synthesis of Static GIS terrain with Dynamic Hydrology time-series.
-- **The Demo (60s)**: Show the baseline map, slide the Hathnikund Barrage release slider to $+1.6\text{ m}$, and watch low-elevation zones turn red in real-time.
-- **The Impact (30s)**: Emphasize early sandbag barricading, road closures, and targeted evacuations 12-24 hours ahead of time.
-
----
-
-## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
